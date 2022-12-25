@@ -9,7 +9,7 @@ public class SampleRestControllerExample {
 	 @GetMapping("/hello")
 	    // Easy method just to print encouraging and consoling words
 	    public String hello() {
-	        return "Hello Geek, this is a simple hello message to take care and have a nice day.";
+	        return "Hello Geek, this is a simple hello message to take care and have a nice day. How are you by the way!! all good?";
 	    }
 	     
 	    @GetMapping("/greet")
